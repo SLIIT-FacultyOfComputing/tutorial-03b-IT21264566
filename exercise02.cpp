@@ -2,10 +2,11 @@
 using namespace std;
 
 int volume(int height, int width, int length);
-
+}
 int main() {
-    int box1Height, box1Width, box1Length;
-    int box2Height, box2Width, box2Length;
+  
+ int box1Height, box1Width, box1Length;
+   int box2Height, box2Width, box2Length;
     int totalVolume, totalSurface;
     
     cout << "Enter Box 1 Height : ";
@@ -21,7 +22,8 @@ int main() {
     cin >> box2Width;
     cout << "Enter Box 2 Length : ";
     cin >> box2Length;
-    
+
+  
     totalVolume = volume(box1Height, box1Width, box1Length)
              + volume(box2Height, box2Width, box2Length);
              
@@ -31,3 +33,7 @@ int main() {
 }
 
 // Implement the Volume() function here
+int volume(int height, int width , int length)
+{
+  return height , width , length;
+}
